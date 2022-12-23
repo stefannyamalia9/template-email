@@ -5,7 +5,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: rgb(255, 250, 245);
+            position: relative;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            width: auto;
+            background-color: rgb(250, 208, 220);
+        }
+
+        article {
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 80px;
+        }
+
+        footer {
+            background-color: rgb(173, 168, 168);
+            height: 50px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .title {
+            font-size: 12px;
+            color: rgb(39, 38, 38);
+            background-color: rgb(255, 183, 49);
+            width: 320px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .message {
+            line-height: 25px;
+            font-size: 14px;
+            text-align: justify;
+            margin-top: 40px;
+        }
+
+        .link {
+            color: blue;
+            font-weight: 500;
+        }
+
+        .link-name {
+            color: blue;
+            font-weight: 500;
+        }
+
+        .penutup {
+            margin: 20px 0;
+        }
+
+        .link-cs {
+            color: black;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        ul {
+            margin-left: 12px;
+        }
+
+        .ready {
+            font-weight: 700;
+            color: green;
+            width: 48px;
+            text-align: center;
+            display: inline;
+            padding: 0;
+            margin: 0;
+        }
+
+        .primary-btn {
+            align-self: center;
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            background-color: rgb(192, 69, 80);
+            color: white;
+            border: none;
+            font-weight: 600;
+        }
+
+        .p-cs {
+            margin-top: 30px;
+        }
+
+        .logo-header {
+            width: 100px;
+            height: auto;
+        }
+
+        .ig {
+            width: 30px;
+            height: auto;
+        }
+
+        .fb {
+            width: 30px;
+            height: auto;
+        }
+
+        .wa {
+            width: 30px;
+            height: auto;
+        }
+    </style>
     <title>Pesanan Diproses</title>
 </head>
 
@@ -20,16 +152,18 @@
         <div class="message">
             <p>
                 Hai <Span class="link-name">Customer01</Span>,<br><br>
-                Pesanan <a href=""><span class="link">102938201</span></a> sedang kami proses untuk pengecekan ketersediaan barang dengan quantity yang ada. <br><br> Proses
+                Pesanan <a href=""><span class="link">102938201</span></a> sedang kami proses untuk pengecekan
+                ketersediaan barang dengan quantity yang ada. <br><br> Proses
                 akan memakan waktu maksimal 1x24 jam pada hari
                 kerja: <br>
             </p>
-               <ul>
+            <ul>
                 <li>Senin - Jumat: 08.00 - 17.00 WIB</li>
                 <li>Sabtu: 08.00 - 15.00 WIB</li>
-               </ul>
+            </ul>
             <p class="penutup">
-               Kami akan menginformasikan melalui email status <span class="ready">READY</span> yang artinya anda akan menerima Invoice pesanan sudah disesuaikan dengan quantity yang tersedia.
+                Kami akan menginformasikan melalui email status <span class="ready">READY</span> yang artinya anda akan
+                menerima Invoice pesanan sudah disesuaikan dengan quantity yang tersedia.
                 <br><br>Untuk memeriksa pesanan anda, silahkan klik tombol dibawah ini:
             </p>
             <button class="primary-btn">Cek Pesanan</button>
