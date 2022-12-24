@@ -6,163 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>Pembayaran Berhasil</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        body {
-            background-color: rgb(255, 250, 245);
-            position: relative;
-        }
-
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 60px;
-            width: auto;
-            background-color: rgb(250, 208, 220);
-        }
-
-        article {
-            margin: 0 auto;
-            margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            width: 70%;
-            justify-content: center;
-            align-items: center;
-        }
-
-        footer {
-            background-color: rgb(173, 168, 168);
-            height: 50px;
-            margin-top: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-        }
-
-        .title {
-            font-size: 12px;
-            color: rgb(255, 255, 255);
-            background-color: rgb(9, 191, 3);
-            width: 240px;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .message {
-            line-height: 25px;
-            font-size: 14px;
-            display: flex;
-            flex-direction: column;
-            text-align: justify;
-            gap: 20px;
-            margin-top: 50px;
-        }
-
-        .link {
-            color: blue;
-            font-weight: 500;
-        }
-
-        .link-name {
-            color: blue;
-            font-weight: 500;
-        }
-
-        .link-cs {
-            color: black;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        .primary-btn {
-            align-self: center;
-            height: 40px;
-            width: 120px;
-            border-radius: 5px;
-            background-color: rgb(192, 69, 80);
-            color: white;
-            border: none;
-            font-weight: 600;
-        }
-
-        .p-cs {
-            margin-top: 30px;
-        }
-
-        .logo-header {
-            width: 100px;
-            height: auto;
-        }
-
-        .ig {
-            width: 30px;
-            height: auto;
-        }
-
-        .fb {
-            width: 30px;
-            height: auto;
-        }
-
-        .wa {
-            width: 30px;
-            height: auto;
-        }
-    </style>
 </head>
 
-<body>
-    <header>
-        <img class="logo-header" src="./assets/kainmu-press-logo-putih.png" alt="logo">
-    </header>
-    <article>
-        <div class="title">
+<body style="background-color:rgb(241, 236, 230); position:relative;">
+    <article style="margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;">
+        <div class="title" style="font-size: 12px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(9, 191, 3);
+        width: 240px;
+        text-align: center;
+        margin-top: 20px;">
             <h1>Pembayaranmu berhasil!</h1>
         </div>
-        <div class="message">
+        <div class="message" style="line-height: 25px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        gap: 20px;
+        margin-top: 50px;">
             <p>
-                Hai <Span class="link-name">Customer01</Span>,<br><br>
-                Pembayaran untuk pesanan dengan nomor <a href=""><span class="link">102938201</span></a> sudah berhasil
+                Hai <Span class="link-name" style="color: blue;
+                font-weight: 500;">Customer01</Span>,<br><br>
+                Pembayaran untuk pesanan dengan nomor <a href=""><span class="link" style="color: blue;
+                    font-weight: 500;">102938201</span></a> sudah berhasil
                 kami terima. <br><br>
                 Saat ini pesananmu sedang kami packing untuk dikirimkan sesuai alamat yang dipilih saat checkout.
                 <br><br>
                 Kami akan menginformasikan lewat e-mail jika pesanan telah dikirimkan. <br><br>
                 Silahkan cek status pengirimaan melalui tombol dibawah ini:
             </p>
-            <button class="primary-btn">Cek Status</button>
+            <button class="primary-btn" style="align-self: center;
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            background-color: rgb(192, 69, 80);
+            color: white;
+            border: none;
+            font-weight: 600;">Cek Status</button>
 
-            <p class="p-cs">
+            <p class="p-cs" style="margin-top: 30px;">
                 Salam, <br>
-                <span class="link-cs">CS Kainmu</span>
+                <span class="link-cs" style="color: black;
+                font-size: 14px;
+                font-weight: 600;">CS Kainmu</span>
             </p>
         </div>
     </article>
-    <footer>
-        <a href="https://www.instagram.com/kainmu.official/">
-            <img class="ig" src="./assets/logo-ig.png" alt="IG">
-        </a>
-        <a href="https://wa.link/efvbxw">
-            <img class="wa" src="./assets/logo-wa.png" alt="WA">
-        </a>
-        <a href="https://www.facebook.com/KainMu-111541011436276/">
-            <img class="fb" src="./assets/logo-fb.png" alt="FB">
-        </a>
-    </footer>
 </body>
 
 </html>
