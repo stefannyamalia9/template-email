@@ -5,186 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        body {
-            background-color: rgb(255, 250, 245);
-            position: relative;
-        }
-
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 60px;
-            width: auto;
-            background-color: rgb(250, 208, 220);
-        }
-
-        article {
-            margin: 0 auto;
-            margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            width: 70%;
-            justify-content: center;
-            align-items: center;
-            padding-bottom: 80px;
-        }
-
-        footer {
-            background-color: rgb(173, 168, 168);
-            height: 50px;
-            margin-top: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-        }
-
-        .title {
-            font-size: 12px;
-            color: rgb(39, 38, 38);
-            background-color: rgb(255, 183, 49);
-            width: 320px;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .message {
-            line-height: 25px;
-            font-size: 14px;
-            text-align: justify;
-            margin-top: 40px;
-        }
-
-        .link {
-            color: blue;
-            font-weight: 500;
-        }
-
-        .link-name {
-            color: blue;
-            font-weight: 500;
-        }
-
-        .penutup {
-            margin: 20px 0;
-        }
-
-        .link-cs {
-            color: black;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        ul {
-            margin-left: 12px;
-        }
-
-        .ready {
-            font-weight: 700;
-            color: green;
-            width: 48px;
-            text-align: center;
-            display: inline;
-            padding: 0;
-            margin: 0;
-        }
-
-        .primary-btn {
-            align-self: center;
-            height: 40px;
-            width: 120px;
-            border-radius: 5px;
-            background-color: rgb(192, 69, 80);
-            color: white;
-            border: none;
-            font-weight: 600;
-        }
-
-        .p-cs {
-            margin-top: 30px;
-        }
-
-        .logo-header {
-            width: 100px;
-            height: auto;
-        }
-
-        .ig {
-            width: 30px;
-            height: auto;
-        }
-
-        .fb {
-            width: 30px;
-            height: auto;
-        }
-
-        .wa {
-            width: 30px;
-            height: auto;
-        }
-    </style>
-    <title>Pesanan Diproses</title>
 </head>
 
-<body>
-    <header>
-        <img class="logo-header" src="./assets/kainmu-press-logo-putih.png" alt="logo">
-    </header>
-    <article>
-        <div class="title">
-            <h1>Pesananmu sedang kami proses..</h1>
-        </div>
-        <div class="message">
-            <p>
-                Hai <Span class="link-name">Customer01</Span>,<br><br>
-                Pesanan <a href=""><span class="link">102938201</span></a> sedang kami proses untuk pengecekan
-                ketersediaan barang dengan quantity yang ada. <br><br> Proses
-                akan memakan waktu maksimal 1x24 jam pada hari
-                kerja: <br>
-            </p>
-            <ul>
-                <li>Senin - Jumat: 08.00 - 17.00 WIB</li>
-                <li>Sabtu: 08.00 - 15.00 WIB</li>
-            </ul>
-            <p class="penutup">
-                Kami akan menginformasikan melalui email status <span class="ready">READY</span> yang artinya anda akan
-                menerima Invoice pesanan sudah disesuaikan dengan quantity yang tersedia.
-                <br><br>Untuk memeriksa pesanan anda, silahkan klik tombol dibawah ini:
-            </p>
-            <button class="primary-btn">Cek Pesanan</button>
-
-            <p class="p-cs">
-                Salam, <br>
-                <span class="link-cs">CS Kainmu</span>
-            </p>
-        </div>
-    </article>
-    <footer>
-        <a href="https://www.instagram.com/kainmu.official/">
-            <img class="ig" src="./assets/logo-ig.png" alt="IG">
+<body style="background-color:rgb(255, 250, 245);width:auto;">
+    <div style="text-align:center;margin:30px">
+        <img src="./assets/kainmu-press-logo-putih.png" alt="logo" width="100px" height="auto" />
+    </div>
+    <h1
+        style="margin:0 auto;font-size:20px;color:rgb(255, 255, 255);background-color:rgb(9, 191, 3);width:250px;text-align:center;margin-top:40px;">
+        Pembayaranmu berhasil!</h1>
+    <p style="margin-left:15%;margin-right:15%;font-size:16px;text-align:justify;margin-top:50px;">
+        Hai <span class="link-name" style="color:blue;font-weight:500;">Customer01</span>,<br /><br />
+        Pesanan <a href=""><span class="link" style="color:blue;font-weight:500;">102938201</span></a>
+        sedang kami proses untuk pengecekan ketersediaan barang dengan quantity yang ada. Kami akan menginformasikan melalui email status READY yang artinya anda akan
+        menerima Invoice pesanan sudah disesuaikan dengan quantity yang tersedia.
+        Proses akan memakan waktu maksimal 1x24 jam pada hari kerja:
+        <br />
+    </p>
+    <ul style="margin-left:15%;margin-right:15%;font-size:16px;margin-top: 10px;">
+        <li>Senin - Jumat: 08.00 - 17.00 WIB</li>
+        <li>Sabtu: 08.00 - 15.00 WIB</li>
+    </ul>
+    <div style="text-align: center;margin-top:30px;">
+        <button
+            style="height:30px;width:120px;border-radius:5px;background-color:rgb(192, 69, 80);color:white;border:none;font-weight:600;">Cek
+            Pesanan</button>
+    </div>
+    <p style="text-align:center;margin:0 auto;margin-top:70px;">
+        Salam, <br />
+        <span class="link-cs" style="color:black;font-size: 14px;font-weight:600;">CS Kainmu</span>
+    </p>
+    <div style="text-align:center;margin-top:50px;">
+        <a href="https://www.facebook.com/KainMu-111541011436276/" style="text-decoration: none;">
+            <img src="./assets/logo-fb.png" alt="logo" width="35px" height="auto" />
         </a>
-        <a href="https://wa.link/efvbxw">
-            <img class="wa" src="./assets/logo-wa.png" alt="WA">
+        <a href="https://wa.link/efvbxw" style="text-decoration: none;">
+            <img src="./assets/logo-wa.png" alt="logo" width="35px" height="auto" style="margin: 0 30px;" />
         </a>
-        <a href="https://www.facebook.com/KainMu-111541011436276/">
-            <img class="fb" src="./assets/logo-fb.png" alt="FB">
+        <a href="https://www.instagram.com/kainmu.official/" style="text-decoration: none;">
+            <img src="./assets/logo-ig.png" alt="logo" width="35px" height="auto" />
         </a>
-    </footer>
+    </div>
 </body>
 
 </html>
